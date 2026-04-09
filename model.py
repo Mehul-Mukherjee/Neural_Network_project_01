@@ -52,3 +52,10 @@ def update(W1, b1, W2, b2, dW1, db1, dW2, db2, lr):
     W2 -= lr * dW2
     b2 -= lr * db2
     return W1, b1, W2, b2
+
+
+
+# Predict
+def predict(X, W1, b1, W2, b2):
+     _, _, _, A2 = forward(X, W1, b1, W2, b2)
+     return np.argmax(A2, axis=0)

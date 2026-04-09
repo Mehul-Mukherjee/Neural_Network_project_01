@@ -11,10 +11,15 @@ Built a fully connected neural network from scratch using only NumPy to classify
 - Cross-entropy loss
 
 ## Results
-- Accuracy: XX%
-- Loss curve:
+- Accuracy: ~91%
 
-(put image here)
+### Loss curve:
+
+<p align="center">
+  <img src="results/loss_curve.png" width="500"/>
+</p>
+
+
 
 ## Tech Stack
 - Python
